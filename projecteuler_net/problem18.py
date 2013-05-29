@@ -2,6 +2,7 @@
 
 '''
 Solution to http://projecteuler.net/problem=18
+using dynamic programming.
 
 https://github.com/denis-ryzhkov/training/blob/master/projecteuler_net/problem18.py
 Copyright (C) 2013 by Denis Ryzhkov <denisr@denisr.com>
