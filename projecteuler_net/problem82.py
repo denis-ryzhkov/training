@@ -18,10 +18,10 @@ cols = len(data[0])
 inf = float('+inf')
 
 # Minimal path sums,
-# padded with extra column and extra row of infinities,
+# padded with extra row of infinities,
 # that exploits Python's "negative index is reverse index"
-# to access sums[... +/- 1] safely.
-sums = [[inf] * (cols + 1) for row in xrange(rows + 1)]
+# to access sums[row +/- 1] safely.
+sums = [[inf] * cols for row in xrange(rows + 1)]
 
 for col in xrange(cols):
     row = 0
