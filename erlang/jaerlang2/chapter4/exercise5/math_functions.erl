@@ -1,3 +1,5 @@
+#!/usr/bin/env escript
+
 % My first Erlang code.
 % Solution to jaerlang2/chapter4/exercise5.
 %
@@ -10,7 +12,7 @@
 -export([
     even/1,
     odd/1,
-    test/0
+    main/1
 ]).
 
 %%%% even
@@ -26,7 +28,7 @@ odd(X) -> not even(X).
 
 assert(X, X) -> true.
 
-test() ->
+main(_) ->
     L = lists:seq(-2, 2),
     assert([even(X) || X <- L], [true, false, true, false, true]),
     assert([odd(X) || X <- L], [false, true, false, true, false]),
