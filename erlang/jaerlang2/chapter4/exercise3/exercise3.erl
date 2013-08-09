@@ -1,13 +1,14 @@
 #!/usr/bin/env escript
 
-% Solution to jaerlang2/chapter4/exercise3.
+% Solution to jaerlang2/chapter4/exercise3:
+%
+%   Look up the definitions of erlang:now/0, erlang:date/0, and erlang:time/0.
+%   Write a function called my_time_func(F), which evaluates the fun F and times how long it takes.
+%   Write a function called my_date_string() that neatly formats the current date and time of day
 %
 % https://github.com/denis-ryzhkov/training/blob/master/erlang/jaerlang2/chapter4/exercise3
 % Copyright (C) 2013 by Denis Ryzhkov <denisr@denisr.com>
 % MIT License, see http://opensource.org/licenses/MIT
-
-% Look up the definitions of erlang:now/0, erlang:date/0, and erlang:time/0. Write a function called my_time_func(F), which evaluates the fun F and times how long it takes.
-% Write a function called my_date_string() that neatly formats the current date and time of day
 
 -module(exercise3).
 

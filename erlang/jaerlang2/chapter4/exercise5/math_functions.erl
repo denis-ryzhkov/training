@@ -1,7 +1,12 @@
 #!/usr/bin/env escript
 
 % My first Erlang code.
-% Solution to jaerlang2/chapter4/exercise5.
+%
+% Solution to jaerlang2/chapter4/exercise5:
+%
+%   Write a module called math_functions.erl, exporting the functions even/1 and odd/1.
+%   The function even(X) should return true if X is an even integer and otherwise false.
+%   odd(X) should return true if X is an odd integer.
 %
 % https://github.com/denis-ryzhkov/training/blob/master/erlang/jaerlang2/chapter4/exercise5/math_functions.erl
 % Copyright (C) 2013 by Denis Ryzhkov <denisr@denisr.com>
